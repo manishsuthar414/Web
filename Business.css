@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav  */
+h1{
+    margin-left: 8vh;
+    margin-top: 3vh;
+    position: absolute;
+    font-size: 34px;
+    
+}
+ul{
+    margin-left: 39%;
+    /* padding: 23px; */
+    display: flex;
+}
+li{
+    list-style: none ;
+    padding: 23px;
+    font-size: 18px;
+}
+/* Card */
+
+#MainCard{
+    display: flex;
+    width: 20%;
+    border: solid red 2px;
+}
+/* #Card{
+} */
+.container{
+    padding: 14rem;
+    padding-bottom: 32rem;
+    margin: 0;
+    background: linear-gradient(
+        to right,
+        rgb(222 96 96) 0%,
+    rgb(255, 166, 107) 50%,
+    white 50%,
+    white 100%
+    );
+}
+.card{
+    
+    background: linear-gradient(
+        to right,
+        rgba(221, 116, 102, 0.626) 0%,
+    rgba(255, 166, 107, 0.726) 100%
+    );
+    position: absolute;
+    margin-left: 12rem;
+    border-radius: unset;
+    box-shadow:
+  0px 0px 0px -4px rgba(0, 0, 0, 0.037),
+  0px 0px 0.1px -4px rgba(0, 0, 0, 0.094),
+  0px 0.1px 0.3px -4px rgba(0, 0, 0, 0.167),
+  0px 0.1px 0.5px -4px rgba(0, 0, 0, 0.251),
+  0px 0.2px 0.9px -4px rgba(0, 0, 0, 0.343),
+  0px 0.3px 1.6px -4px rgba(0, 0, 0, 0.44),
+  0px 0.4px 2.6px -4px rgba(0, 0, 0, 0.536),
+  0px 0.6px 4.7px -4px rgba(0, 0, 0, 0.628),
+  0px 1px 13px -4px rgba(0, 0, 0, 0.71)
+;
+
+
+}
+.cardimg{
+    width: 32%;
+    margin-top: 40px;
+    border-radius: 50%;
+    margin-left: 32%;
+    
+}
+h5{
+    padding-bottom: 19px;
+    margin-top: 25px;
+    margin-left: 1.7rem;
+}
+h2{
+    position: absolute;
+    margin-left: 38.3rem;
+    margin-top: 6.5rem;
+}
+hr{
+    height: 1px;
+    margin-left: 4rem;
+    width: 9rem;
+    color: rgb(52, 7, 252);
+    /* margin-left: 26rem; */
+    /* margin-top: 21rem; */
+}
+p{
+    margin-left: 38.2rem;
+        position: absolute;
+        padding-right: 96px;
+        margin-top: 10rem;
+}
+.main{
+    position: absolute;
+    margin: -5rem;
+    margin-left: 38rem;
+    font-size: 8rem;
+}
+.soical{
+    width: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    /* margin-top: 95px;    */
+}
+#clo{
+    background: white;
+    grid-template-columns: 1fr 1fr 1fr;
+}
